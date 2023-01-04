@@ -4,9 +4,10 @@ html {
   line-height: 24px;
   font-weight: 400;
 
+  background-color: #242424;
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,8 +16,13 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-main {
-  padding: calc(4vh + 24px) 0 0 0;
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 a {
@@ -47,7 +53,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: rgba(20, 20, 20, 0.8);
   cursor: pointer;
   transition: border-color 0.25s;
 }

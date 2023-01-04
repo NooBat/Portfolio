@@ -1,9 +1,8 @@
-import './index.scss';
+import '../../assets/scss/navbar.scss';
 
 const NavBar = () => (
-  <header id='header'>
-    <h1>Nguyen Tran Khoi</h1>
-    <nav id='navbar'>
+  <header>
+    <nav>
       <a href='#about-me'>About Me</a>
       <a href='#projects'>Projects</a>
       <a href='#contact'>Contact</a>

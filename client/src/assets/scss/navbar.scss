@@ -20,17 +20,21 @@ nav {
 
   .options {
     margin: 2vh 5vw;
+    padding: 0px;
+
     background-color: rgba(20, 20, 20, 0);
     color: white;
 
     border: 0px;
-    padding: 0.6em 1.2em;
+
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
     cursor: pointer;
     transition: border-color 0.25s;
+  }
 
-    outline: none;
+  .active {
+    background-color: rgba(40, 40, 40, 0.2);
   }
 }

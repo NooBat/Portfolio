@@ -2,7 +2,7 @@ import '../assets/scss/about.scss';
 
 const About = () => (
   <section id='about-me'>
-    <div className='cv'>m</div>
+    <div className='container'>m</div>
   </section>
 );
 
